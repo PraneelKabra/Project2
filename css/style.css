@@ -1,0 +1,94 @@
+body{
+  background-color: lightcyan;
+  }
+
+#mainNavbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: cadetblue;
+  z-index: 1000;
+}
+
+.navbarContainer {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#mainNavbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#mainNavbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  margin: 0;
+}
+
+#mainNavbar ul li a {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em 0 0.8em 0;
+  margin: 0 0.1em;
+  width: 10em;
+  color: #000;
+}
+
+#mainNavbar ul li a:hover {
+  background-color: darkcyan;
+}
+
+.mediaContainer {
+    margin: 1em;
+}
+
+.textContainer {
+  margin: 1em;
+}
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  font-size: 1.75em;
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  font-family: "Inter", serif;
+  padding: 0;
+  margin: 0;
+}
+
+em {
+  color: darkcyan;
+}
+
+#contactFieldset a {
+  text-decoration: none;
+}
+
+#contactFieldset a:hover {
+  text-decoration: underline;
+}
