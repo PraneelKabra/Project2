@@ -2,6 +2,36 @@ body{
   background-color: lightcyan;
   }
 
+h1{
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  font-size: 1.75em;
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  font-family: "Inter", serif;
+  padding: 0;
+  margin: 0;
+}
+
+em {
+  color: darkcyan;
+}
+
+img {
+  height: 450px;
+  padding: 0.5em;
+}
+
 #mainNavbar {
   position: sticky;
   top: 0;
@@ -52,43 +82,18 @@ body{
   background-color: darkcyan;
 }
 
-.mediaContainer {
-    margin: 1em;
-}
-
-.textContainer {
-  margin: 1em;
-}
-
-h1{
-  font-family: "Playfair Display", serif;
-  font-size: 2em;
-  text-align: center;
-  text-decoration: underline;
-}
-
-h2{
-  font-family: "Playfair Display", serif;
-  padding: 0;
-  font-size: 1.75em;
-  text-align: left;
-  margin: 0;
-}
-
-p {
-  font-family: "Inter", serif;
-  padding: 0;
-  margin: 0;
-}
-
-em {
-  color: darkcyan;
-}
-
 #contactFieldset a {
   text-decoration: none;
 }
 
 #contactFieldset a:hover {
   text-decoration: underline;
+}
+
+.mediaContainer, .textContainer, .filmContainer {
+    margin: 1em;
+}
+
+.filmContainer p {
+  padding-left: 0.5em;
 }
