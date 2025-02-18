@@ -27,11 +27,6 @@ em {
   color: darkcyan;
 }
 
-img {
-  height: 450px;
-  padding: 0.5em;
-}
-
 #mainNavbar {
   position: sticky;
   top: 0;
@@ -92,6 +87,11 @@ img {
 
 .mediaContainer, .textContainer, .filmContainer {
     margin: 1em;
+}
+
+.filmContainer img {
+  height: 450px;
+  padding: 0.5em;
 }
 
 .filmContainer p {
