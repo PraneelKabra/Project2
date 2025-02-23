@@ -77,11 +77,22 @@ em {
   background-color: darkcyan;
 }
 
-#contactFieldset a {
+#contactSection, #educationSection, #certificationsSection {
+  margin-top: 1em;
+  border: 0.075em solid; black;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+#contactSection h2, #educationSection h2, #certificationsSection h2 {
+  padding-bottom: 0.5em;
+}
+
+#contactSection a {
   text-decoration: none;
 }
 
-#contactFieldset a:hover {
+#contactSection a:hover {
   text-decoration: underline;
 }
 
