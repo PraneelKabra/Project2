@@ -3,14 +3,14 @@ body{
   }
 
 h1{
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 2em;
   text-align: center;
   text-decoration: underline;
 }
 
 h2{
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", Georgia, serif;
   padding: 0;
   font-size: 1.75em;
   text-align: left;
@@ -18,7 +18,7 @@ h2{
 }
 
 p {
-  font-family: "Inter", serif;
+  font-family: "Inter", Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -62,7 +62,7 @@ em {
 
 #mainNavbar ul li a {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.5em;
   font-weight: 600;
   text-decoration: none;
