@@ -82,17 +82,16 @@ em {
   float: right;
   margin-bottom: 1em;
   margin-left: 1em;
-  border: 0.075em solid; black;
+  border: 0.075em solid black;
   border-radius: 5px;
   width: 30%;
   padding: 1em;
-
 }
 
 #educationSection, #certificationsSection {
   float: left;
   margin-bottom: 1em;
-  border: 0.075em solid; black;
+  border: 0.075em solid black;
   border-radius: 5px;
   width: 60%;
   padding: 1em;
